@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PrimeraClase</string>
+    <string name="firstButton">Press me!</string>
+    <string name="newText">Sorpresa!</string>
+</resources>
