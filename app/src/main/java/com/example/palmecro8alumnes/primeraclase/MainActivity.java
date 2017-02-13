@@ -16,6 +16,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        /**
+         * Si no declarara las variables a nivel de clase,
+         * pr ejemplo TextView, tendría que declararse como
+         * final, ya que si no, si el valor se modificara
+         * después de la creación, podría dar problemas.
+         *
+         * Seria asi:
+         * final TextView myTextview  (TextView)findViewById(R.id.textView);
+         */
+
+
         firstButton = (Button)findViewById(R.id.button);
         myTextView = (TextView)findViewById(R.id.textView);
 
