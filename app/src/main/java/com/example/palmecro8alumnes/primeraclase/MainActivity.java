@@ -34,6 +34,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 myTextView.setText(R.string.newText);
+
+                /**
+                 * Option 2:
+                 * String b = getResources().getString(R.string.XXXX);
+                 *
+                 * This is useful to use the text with some other purpose
+                 * like comparing to other text.
+                 */
             }
         });
     }
